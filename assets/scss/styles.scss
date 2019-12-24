@@ -1,0 +1,26 @@
+// Project base
+@import 'base/index';
+// Project Specific Components
+@import 'components/index';
+
+// Product style
+@import 'layout/product/index';
+
+// Product-Details style
+@import 'layout/product-details/index';
+
+// Home style
+@import 'layout/home/index';
+
+// Login style
+@import 'layout/login/index';
+
+//Checkout-deatils
+@import 'layout/checkout/index';
+
+// Utilities style
+@import 'utilities/index';
+
+// Cart style
+@import 'layout/cart/index';
+

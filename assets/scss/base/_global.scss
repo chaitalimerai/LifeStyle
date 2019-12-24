@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  @include wh(100%, auto);
+  font-family: $font-base;
+}
+
+// Reset properties
+a {
+  text-decoration: none;
+}
+
+// input[type="checkbox"],
+// input[type="radio"] {
+//     display: none;
+// }
+
+input {
+  outline: 0;
+}
+
+label,
+button {
+    cursor: pointer;
+}
+
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#main-wrapper {
+  @include wh(100%, auto);
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  // width: 100%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: $white;
+}
